@@ -19,12 +19,13 @@ The goal of this project was to analyze the sales performance of a sandwich manu
 
 
 ## Data Source:
-Sales Data: The primary dataset used for this analysis is the sales_data.csv file, which contains detailed information about each sale made by the company. Dimensional table such as product category, geographical region, product, reseller, and date were created from the sales data. 
+Sales Data: The primary dataset used for this analysis is the sales_data.csv file, which contains detailed information about each sale made by the company. 
 
 ## Tools:
 Data was cleaned and transformed using a power query then data analysis and visualisation were done using Power BI.
-- Power Query - Data cleaning
-- Power BI - Data analysis and visualization
+- Excel - Data cleaning
+- Excel - Data analysis and visualization
+- SQL Server Management Studio - Data analysis
 
 ## Data Cleaning and Preparation
 In the initial data preparation phase, we performed the following tasks:
@@ -35,27 +36,24 @@ In the initial data preparation phase, we performed the following tasks:
 ## Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions:
 - What is the overall sales trend?
-- what products are top sellers?
-- what is the percentage of sales and profit by sales channel?
-- What is the total sales by country?
-- what is the sales variance?
-- what is the percentage of total expenses to sales?
-- what is the total number of customers?
+- What is Daily Trend for Total Orders?
+- What is Hourly Trend for Total Orders?
+- What is the Percentage of Sales by Sandwich Category?
+- What is the Percentage of Sales by Sandwich Size?
+- What is the Total Sandwichs sold by the company?
+- What is the Bottom 5 Worst Sellers by the Pizzas sold?
+- What is the Top 5 Worst Sellers by the Pizzas sold:?
+- what ks the Average Order Value?
+- Total Sandwich Quantity Sold?
+- What is the Total Orders?
+- Average Sandwich Per Order?
 
-## Data analysis
-Measures were created such as profit, previousyearsales, and count rows.
 
 ## Key Insights
 Our analysis revealed some key insights and we were able to use the key insights to make recommendations.
-- Significant increase in sales in FY 2019 compared to FY 2020
-- Significant sales were generated in the product category named “Bikes” compared to others.
-- Significant sales were made through the reseller but contributed less than 1% to the profit
-- United States led in revenue, possibly due to high consumer spending
+- Highest saless are on Fridays & Saturdays.
+- There are maximum orders between 12pm and 1pm.
+- Classic Category has the highest contribution to sales and quantity sold
+- Large size sandwich has the highest sales
 
-## Recommendations
-- To address a significant decline in sales from FY 2019 to FY 2020, a comprehensive strategy is proposed. First, a thorough investigation into market trends, customer behavior, and external factors will uncover the root causes. Capitalizing on the success of the "Bikes" category, the company should optimize its product mix, introducing complementary items and tailoring marketing strategies to bolster this high-performing segment.
-- Assessing the profitability of resellers is crucial, with adjustments in pricing, commissions, or partnerships to enhance overall profitability. Diversifying revenue streams from resellers through incentives, new products, or expanded markets can positively impact company performance.
-- Given the strong performance in the United States, explore opportunities to expand into other international markets. Conduct market research to identify regions with high consumer spending and potential for the company's products.
 
-## Conclusion
-The project underlines the importance of leveraging data to optimize sales strategies to drive revenue. Through the analysis, I learned the importance of data-driven decision-making. I also gained valuable experience using Power BI for data analysis and visualization. 

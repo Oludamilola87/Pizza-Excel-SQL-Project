@@ -9,8 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data analysis](#data-analysis)
 - [Key Insights](#key-insights)
-- [Recommendations](#recommendations)
-- [Conclusion](#conclusion)
+
   
 ## Project Overview:
 The goal of this project was to analyze the sales performance of a sandwich manufacturing company using data analysis tools. The analysis is aimed at uncovering trends, best selling products, worst selling products, daily trend for sandwich orders etc, Rigorous data cleaning, modeling, and visualization were conducted using Power BI. I gained invaluable insights into customer sandwich preference, sales patterns, and sales performance.
